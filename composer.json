@@ -1,0 +1,34 @@
+{
+  "name": "sadi01/yii2-mutex-filter",
+  "description": "MutexFilter is an action filter that apply mutex on controller's actions.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "behavior",
+    "filter",
+    "mutex",
+    "race condition",
+    "concurrent process",
+    "concurrency",
+    "mutex filter"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Sadegh Shafii",
+      "email": "sadshafiei.01@gmail.com"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/sadi01/yii2-mutex-filter"
+  },
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "sadi01\\mutexFilter\\": "src/"
+    }
+  }
+}
